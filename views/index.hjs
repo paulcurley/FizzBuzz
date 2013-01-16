@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<link rel='stylesheet' href='/stylesheets/style.css' />
+	</head>
+
+	<h1>{{ title }}</h1>
+    <p>Welcome to the {{ title }} sequence</p>
+	
+	<form action="/" method="post">
+		<label>Enter a number please</label>
+		<input type="text" name="result"/>
+		<input type="submit" />
+	</form>
+
+	
+
+	
+  </body>
+</html>

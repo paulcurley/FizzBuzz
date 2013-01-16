@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<link rel='stylesheet' href='/stylesheets/style.css' />
+	</head>
+	<body class="results">
+		<h1>{{title}}</h1>
+
+		<ul>
+			{{#data}}
+			<li>{{.}}</li>
+			{{/data}}
+		</ul>
+		<p><a href="/">Try again</a></p>
+	</body>
+</html>
